@@ -41,18 +41,6 @@ public class Solution {
             System.out.println();
             
         }
-        // write your code here
     }
 
-    public static void printStars(int n){
-        for(int i = 1 ; i <= n ;i++){
-            System.out.print("*");
-        }
-    }
-
-    public static void printSpaces(int n){
-        for(int i = 1 ; i <= n ;i++){
-            System.out.print(" ");
-        }
-    }
 }
