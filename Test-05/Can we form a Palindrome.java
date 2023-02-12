@@ -32,15 +32,5 @@ public class Solution {
         Scanner scn=new Scanner(System.in);
         String S=scn.next();
         System.out.println(canWeFormPalindrome(S));
-        int[] a=new int[130];
-        for(int i=0;i<s.length();i++){
-            a[s.charAt(i)]++;
-        }int o=0;
-        for(int i=0;i<130;i++)
-            if(a[i]%2!=0)o++;
-        if(o>1)
-            System.out.println("False");
-        else
-             System.out.println("True");
     }
 }
